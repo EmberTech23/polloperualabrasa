@@ -1,0 +1,8 @@
+.banner{
+    background-image: url(../assets/banner1.jpg);
+    padding: 25%;
+    position: relative;
+}
+btn{
+    background-color: #FF9E1B !important;
+}
