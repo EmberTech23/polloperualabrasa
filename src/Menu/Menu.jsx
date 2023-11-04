@@ -4,7 +4,7 @@ export function Menu() {
 
         <>
            
-            <nav className="navbar navbar-expand-lg menu navbar-dark">
+            <nav className="navbar navbar-expand-lg menu navbar-dark menu fixed-top">
                 <div className="container-fluid  justify-content-center text-center">
 
                     <button
@@ -20,31 +20,31 @@ export function Menu() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
+
+                        <li className="logopollo nav-item mx-5">
+                                <a className="nav-link active" aria-disabled="true">
+                                    <img src="../../src/assets/img/logomejorado.jpg.png" alt="" className='img-fluid mx-2' />
+                                </a>
+                            </li>
                             <li className="nav-item mx-5">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                    Home
+                                    INICIO
                                 </a>
                             </li>
                             <li className="nav-item mx-5">
-                                <a className="nav-link" href="#">
-                                    Menu
-                                </a>
-                            </li>
-
-                            <li className="nav-item mx-5">
-                                <a className="nav-link disabled" aria-disabled="true">
-                                    <img src="../../src/assets/pierna-de-pollo.png" alt="" className='img-fluid mx-3' />
+                                <a className="nav-link active" href="#">
+                                    COMUNIDAD
                                 </a>
                             </li>
 
                             <li className="nav-item mx-5">
-                                <a className="nav-link disabled" aria-disabled="true">
-                                    Ubicacion
+                                <a className="nav-link active " aria-disabled="true">
+                                CONOCENOS
                                 </a>
                             </li>
                             <li className="nav-item mx-5">
-                                <a className="nav-link disabled" aria-disabled="true">
-                                    Ubicacion
+                                <a className="nav-link active" aria-disabled="true">
+                                DOMICILIOS
                                 </a>
                             </li>
                         </ul>
