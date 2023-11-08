@@ -25,14 +25,6 @@
 }
 
 
-.banner1{
-    background-image: url(../assets/img/juntos.png);
-    background-repeat: no-repeat;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-}
-
 .iconoboton{
     position: absolute;
     font-size: 60px;
@@ -149,30 +141,12 @@
 .foot{
   background-color: #0F4A8E
 }
-.banner4{
-  background-image: url("../assets/img/banner4.jpg");
-  padding: 2% 35% 45% 2%;
-  position: relative;
-  z-index: -1;
-  background-attachment: fixed;
-}
-.banner4::after{
-  background-image: url("../assets/img/juntossomosperuanidad.png");
-  content: '';
-  position: absolute;
-  top:20;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: -1;
- background-repeat: no-repeat;
-}
+
+
 
 .footer{
-background-color: black;
-color: white;
+background-color: antiquewhite;
+color: black;
 }
 
 .separador{
@@ -199,27 +173,51 @@ color: white;
     z-index: -1;
   }
 
-  .banner5 {
-    background-image: url("../assets/img/banner5.jpg");
+  .pollo1{
+    background-image: url(../assets/img/pollo1.jpg);
+    padding: 2% 35% 45% 2%;
     position: relative;
-    z-index: 1;
-    background-repeat: no-repeat;
-    width: 100%; 
-    height: 100vh; 
-    background-size: cover;
+    background-attachment: fixed;
+  }
+.conlabrasa{
+  background-image: url(../assets/img/conlabrasa.jpg);
+  padding: 2% 35% 45% 2%;
+    position: relative;
     background-attachment: fixed;
 }
 
-.banner5::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    height: 100%; 
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1;
-   
+.banner1 {
+  background-image: url(../assets/img/banner1.jpg);
+  padding: 2% 35% 45% 2%;
+    position: relative;
+  
 }
+.banner3 {
+  background-image: url(../assets/img/banner3.jpg.jpeg);
+  padding: 2% 35% 45% 2%;
+    position: relative;
+ 
+}
+.banner4 {
+  background-image: url(../assets/img/banner4.jpg);
+  padding: 2% 35% 45% 2%;
+    position: relative;
+ 
+}
+.arrozchaufa {
+  background-image: url(../assets/img/arrozchaufa.jpg);
+  padding: 2% 35% 45% 2%;
+    position: relative;
+ 
+}
+
+video::-webkit-media-controls,
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+
+
+
+
 
