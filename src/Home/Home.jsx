@@ -6,13 +6,11 @@ export function Home() {
     <>
       <header>
         <Menu />
-        <div>
-          
+        <div className="container-fluid">
+          <div className="row">
+            <div className="lastrada col-12"></div>
+          </div>
         </div>
-
-        <button className="btn botnmio fw-bold text-white">
-          NUESTRA CARTA
-        </button>
       </header>
 
       <section>
@@ -44,7 +42,7 @@ export function Home() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="pollo1 col-6"></div>
+          <div className="pollobrasa col-6"></div>
           <div className="col-6 bg-dark text-white">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
@@ -65,17 +63,17 @@ export function Home() {
         </div>
 
         <div className="row">
-          <div className="conlabrasa col-6"></div>
+          <div className="panchicharron col-6"></div>
           <div className="col-6">
             <div className="row">
-              <div className="banner1 col-12"></div>
-              <div className="banner3 col-12">!</div>
+              <div className="ceviche col-12"></div>
+              <div className="postres col-12">!</div>
             </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="banner4 col-6"></div>
+          <div className="empanada col-6"></div>
           <div className="arrozchaufa col-6"></div>
         </div>
       </div>
