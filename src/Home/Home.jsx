@@ -8,7 +8,11 @@ export function Home() {
         <Menu />
         <div className="container-fluid">
           <div className="row">
-            <div className="lastrada col-12"></div>
+            <div className="primerfondo with-text col-12">
+              <p>JUNTOS <br />
+                SOMOS <br />
+                PERUANIDAD</p>
+            </div>
           </div>
         </div>
       </header>
@@ -39,29 +43,18 @@ export function Home() {
           </div>
         </div>
       </section>
+      <div className="separadorimagenes"></div>
 
       <div className="container-fluid">
         <div className="row">
           <div className="pollobrasa col-6"></div>
           <div className="col-6 bg-dark text-white">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-              debitis deserunt cupiditate dolor maxime! Saepe adipisci incidunt
-              esse quae illo earum ea dignissimos similique dolores dolorem
-              obcaecati sit eaque numquam, voluptatum blanditiis nulla
-              repellendus nobis ducimus. Perspiciatis, provident commodi
-              pariatur corporis praesentium sed recusandae animi quasi illum
-              dolor eligendi reprehenderit officiis hic, odit expedita quas
-              aspernatur vel in. Perferendis animi porro repellat deleniti at
-              iusto sequi temporibus assumenda corporis reiciendis?
-              Perspiciatis, possimus. Eveniet quae cumque nobis optio ad odit,
-              ratione nulla architecto ipsum magni fugiat soluta necessitatibus
-              tempora debitis consectetur error perspiciatis quidem quaerat
-              itaque enim pariatur dolores! Accusantium, vero.
+            “Pollo Perú a la brasa" es un restaurante en Medellín, Colombia, inspirado en la rica tradición culinaria peruana. Surgió cuando un apasionado peruano, decidió compartir el auténtico sabor de su cultura, ofreciendo delicioso pollo asado y otros platos típicos. Aunque tuvo que regresar a su país natal, vendió el restaurante a nuevos dueños, quienes continuaron la tradición culinaria, fusionando la autenticidad de la cocina peruana con su propia creatividad. El restaurante se ha convertido en un lugar que celebra la herencia culinaria de Perú y se adapta a las nuevas tendencias gastronómicas.
             </p>
           </div>
         </div>
-
+        <div className="separadorimagenes"></div>
         <div className="row">
           <div className="panchicharron col-6"></div>
           <div className="col-6">
@@ -71,7 +64,7 @@ export function Home() {
             </div>
           </div>
         </div>
-
+        <div className="separadorimagenes"></div>
         <div className="row">
           <div className="empanada col-6"></div>
           <div className="arrozchaufa col-6"></div>

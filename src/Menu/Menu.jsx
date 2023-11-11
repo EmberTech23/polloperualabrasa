@@ -21,11 +21,7 @@ export function Menu() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
 
-                        <li className="logopollo nav-item mx-5">
-                                <a className="nav-link active" aria-disabled="true">
-                                    <img src="../../src/assets/img/logomejorado.jpg.png" alt="" className='img-fluid mx-2' />
-                                </a>
-                            </li>
+                        
                             <li className="nav-item mx-5">
                                 <a className="nav-link active" aria-current="page" href="#">
                                     INICIO
@@ -33,20 +29,27 @@ export function Menu() {
                             </li>
                             <li className="nav-item mx-5">
                                 <a className="nav-link active" href="#">
-                                    COMUNIDAD
+                                    CARTA
                                 </a>
                             </li>
 
+                            <li className="logopollo nav-item mx-5">
+                                <a className="nav-link active" aria-disabled="true">
+                                    <img src="../../src/assets/img/logomejorado.jpg.png" alt="" className='img-fluid mx-2' />
+                                </a>
+                            </li>
+                            
                             <li className="nav-item mx-5">
                                 <a className="nav-link active " aria-disabled="true">
-                                CONOCENOS
+                                EVENTOS
                                 </a>
                             </li>
                             <li className="nav-item mx-5">
                                 <a className="nav-link active" aria-disabled="true">
-                                DOMICILIOS
+                                RESERVAS
                                 </a>
                             </li>
+                            <div className="separador"></div>
                         </ul>
 
                     </div>
