@@ -32,13 +32,7 @@ export function Menu() {
                                     CARTA
                                 </a>
                             </li>
-
-                            <li className="logopollo nav-item mx-5">
-                                <a className="nav-link active" aria-disabled="true">
-                                    <img src="../../src/assets/img/logomejorado.jpg.png" alt="" className='img-fluid mx-2' />
-                                </a>
-                            </li>
-                            
+                    
                             <li className="nav-item mx-5">
                                 <a className="nav-link active " aria-disabled="true">
                                 EVENTOS
@@ -49,7 +43,13 @@ export function Menu() {
                                 RESERVAS
                                 </a>
                             </li>
-                            <div className="separador"></div>
+
+                            <li className="nav-item mx-5">
+                                <a className="nav-link active" aria-disabled="true">
+                                CONTACTANOS
+                                </a>
+                            </li>
+                            <div className="separador w-100"></div>
                         </ul>
 
                     </div>

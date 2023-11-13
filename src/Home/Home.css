@@ -173,46 +173,52 @@
   background-image: url(../assets/img/pollobrasa.jpg);
   padding: 2% 35% 45% 2%;
   position: relative;
+  background-repeat: no-repeat;
 
 }
 
-.panchicharron {
-  background-image: url(../assets/img/panchicharron.jpg);
+.arrozypollo {
+  background-image: url(../assets/img/arrozypollo.jpg);
+  padding: 2% 35% 45% 2%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+ background-position: 50%;
+}
+
+.ceviches {
+  background-image: url(../assets/img/ceviches.jpg);
   padding: 2% 35% 45% 2%;
   position: relative;
   background-size: cover;
 
 }
 
-.ceviche {
-  background-image: url(../assets/img/ceviche.jpg);
-  padding: 2% 35% 45% 2%;
-  position: relative;
-  background-size: cover;
-}
-
-.postres {
-  background-image: url(../assets/img/postres.webp);
+.postresuno {
+  background-image: url(../assets/img/postresuno.jpg);
   padding: 2% 35% 45% 2%;
   position: relative;
   background-size: cover;
 
 }
-
-.empanada {
-  background-image: url(../assets/img/empanada.png);
-  padding: 2% 35% 45% 2%;
+.postresdos {
+  background-image: url(../assets/img/postresdos.jpg);
   position: relative;
   background-size: cover;
-
 }
 
-.arrozchaufa {
-  background-image: url(../assets/img/arrozchaufa.jpg);
-  padding: 2% 35% 45% 2%;
+.postrestres{
+  background-image: url(../assets/img/postrestres.jpg);
   position: relative;
+ 
   background-size: cover;
+}
 
+.postrescuatro{
+  background-image: url(../assets/img/postrescuatro.jpg);
+  position: relative;
+ 
+  background-size: cover;
 }
 
 .primerfondo {
@@ -240,7 +246,7 @@
   text-align:left;
   z-index: 1;
   font-size: 60px;
-  opacity: 50%;
+  opacity: 80%;
 }
 
 .separadorimagenes {
@@ -248,3 +254,39 @@
   margin-top: 5px; 
   
 }
+
+.diezanos {
+  background-image: url(../../src/assets/img/10anos.jpg.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+}
+
+.textoproductosparatodos {
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  text-align:left;
+  z-index: 1;
+  font-size: 40px;
+  opacity: 80%;
+  
+}
+.contenedorpollo {
+    width: 50%; 
+    height: 200px; 
+  
+  }
+
+  .midiv {
+    width: 100%; /* Porcentaje del ancho de su contenedor padre */
+    width: 50%; 
+  }
+  
+
+
+
+  
+
