@@ -4,3 +4,73 @@
     height: 60vh;
     position: relative;
 }
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; 
+    text-align: center;
+}
+.informacion {
+    text-align: center;
+    margin-top: 40px; 
+}
+.info {
+    font-size: 30px;
+}
+.escribenos {
+    font-size: 30px;
+    padding-right: 20%;
+}
+.info2 {
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.info3 {
+    padding-top: 5%;
+    padding-right: 15%;
+}
+.form-control {
+    border-radius: 0;
+    background-color:#f0f0f0; 
+}
+.ubicacion {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.logobrasa {
+    background-image: url(../assets/img/logobrasa.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100px; 
+    height: 100px;
+  }
+  .footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+  }
+  .rappi {
+    font-size: 20px;
+    text-align: center;
+  }
+  .iconos {
+    font-size: 20px;
+    text-align: center;
+  }
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+  }
+  .footer-icon {
+    font-size: 24px;
+    color: white; 
+  }
+  .copy {
+    padding-top: 5%;
+  }
+  

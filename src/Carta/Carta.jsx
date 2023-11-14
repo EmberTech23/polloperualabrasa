@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
+import { Document, Page } from 'react-pdf';
 
-const Carta = () => {
-    return (
-        <div>
-            <h2>Sección de Cartas</h2>
-        </div>
-    );
-};
+function Carta() {
+  return (
+    <div>
+      <h1>Menú</h1>
+      <Document file="/pdf/menu.pdf">
+        <Page pageNumber={1} />
+      </Document>
+    </div>
+  );
+}
 
 export default Carta;

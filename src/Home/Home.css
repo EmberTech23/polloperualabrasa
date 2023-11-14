@@ -133,17 +133,6 @@
   background-color: black
 }
 
-.foot {
-  background-color: #0F4A8E
-}
-
-
-
-.footer {
-  background-color: antiquewhite;
-  color: black;
-}
-
 .separador {
   color: black;
   width: 100%;
@@ -279,7 +268,7 @@
   }
 
   .midiv {
-    width: 100%; /* Porcentaje del ancho de su contenedor padre */
+    width: 100%; 
     width: 50%; 
   }
   
