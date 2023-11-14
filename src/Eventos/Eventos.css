@@ -1,0 +1,64 @@
+.fondoeventos {
+    background-image: url(../assets/img/fondoeventos.jpg);
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    background-repeat: no-repeat;
+  
+  }
+
+  .texto{
+    width: 60%;
+    height: 40%;  
+    
+  }
+
+  .texto2{
+    width: 50%;
+    height: 1%; 
+  }
+
+  .separador {
+    border-bottom: 10px solid olive; 
+    margin-top: 5px; 
+    
+  }
+
+  .programaevento {
+   font-size: 40px;
+   color:olive
+    
+  }
+
+  .formulario{
+   
+    max-width: 500px; 
+    width: 100%;
+    padding: 20px;
+    border: 5px solid olive;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 5vh; /* Esto ajustará verticalmente el formulario */
+  }
+  
+
+.btn-enviar {
+    background-color: gray;
+    color: white;
+    padding: 10px 10px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+  }
+  .btn-enviar:hover {
+    background-color: olive;
+  }
+
+  .imagen-eventos {
+    background-image: url(../assets/img/mesaservida.jpg);
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
