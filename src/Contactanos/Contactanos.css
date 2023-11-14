@@ -1,0 +1,6 @@
+.contacto1{
+    background-image: url(../assets/img/contacto1.jpg);
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}

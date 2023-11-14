@@ -18,31 +18,32 @@ export function Home() {
       </header>
 
       <section>
-        <div class="fab-container">
-          <div class="fab shadow">
-            <div class="fab-content">
-              <span class="material-icons">
-                <i class="bi bi-person-circle"></i>
+        <div className="fab-container">
+          <div className="fab shadow">
+            <div className="fab-content">
+              <span className="material-icons">
+                <i className="bi bi-person-circle"></i>
               </span>
             </div>
           </div>
 
-          <div class="sub-button shadow">
+          <div className="sub-button shadow">
             <a href="google.com" target="_blank">
-              <span class="material-icons">
-                <i class="bi bi-telephone-fill"></i>
+              <span className="material-icons">
+                <i className="bi bi-telephone-fill"></i>
               </span>
             </a>
           </div>
-          <div class="sub-button shadow">
+          <div className="sub-button shadow">
             <a href="google.com" target="_blank">
-              <span class="material-icons">
-                <i class="bi bi-whatsapp fs-4"></i>
+              <span className="material-icons">
+                <i className="bi bi-whatsapp fs-4"></i>
               </span>
             </a>
           </div>
         </div>
       </section>
+      
       <div className="separadorimagenes"></div>
       <div className="contenedorpollo container-fluid">
         <div className="row">
@@ -101,6 +102,7 @@ export function Home() {
   );
 }
 
+export default Home;
 
 
 
