@@ -166,47 +166,34 @@
 
 }
 
-.arrozypollo {
-  background-image: url(../assets/img/arrozypollo.jpg);
-  padding: 2% 35% 45% 2%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size:cover;
- background-position: 50%;
-}
-
-.ceviches {
-  background-image: url(../assets/img/ceviches.jpg);
-  padding: 2% 35% 45% 2%;
-  position: relative;
-  background-size: cover;
-
-}
-
 .postresuno {
   background-image: url(../assets/img/postresuno.jpg);
-  padding: 2% 35% 45% 2%;
+  padding: 10% 25%; 
   position: relative;
   background-size: cover;
-
 }
+
 .postresdos {
   background-image: url(../assets/img/postresdos.jpg);
   position: relative;
+  padding: 10% 25%; 
   background-size: cover;
 }
 
-.postrestres{
+.postrestres {
   background-image: url(../assets/img/postrestres.jpg);
   position: relative;
+  padding: 10% 25%; 
   background-size: cover;
 }
 
-.postrescuatro{
+.postrescuatro {
   background-image: url(../assets/img/postrescuatro.jpg);
   position: relative;
+  padding: 10% 25%; 
   background-size: cover;
 }
+
 
 .primerfondo {
   background-image: url(../../src/assets/img/pruebaunoi.jpg);
@@ -237,41 +224,61 @@
 }
 
 .separadorimagenes {
-  border-bottom: 1px solid white; 
-  margin-top: 5px; 
+  border-bottom: 0.5px solid white; 
+  margin-top: 1px; 
   
 }
 
 .diezanos {
-  background-image: url(../../src/assets/img/10anos.jpg.png);
-  position: relative;
+  background-image: url(../../src/assets/img/10anos.jpg);
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: contain; 
   background-position: center;
+  width: 50%; 
+  height: 100vh;
 }
 
-.textoproductosparatodos {
-  color: white;
-  position: absolute;
-  top: 70%;
-  left: 5%;
-  text-align:left;
-  z-index: 1;
-  font-size: 40px;
-  opacity: 80%;
-  
-}
-.contenedorpollo {
-    width: 50%; 
-    height: 200px; 
-  
+
+.contenedorvideo {
+    width: 100%; 
+    height: 100%; 
+    background-color:black;
   }
 
   .midiv {
     width: 100%; 
     width: 50%; 
   }
+
+  .textocreacion{
+    color:olive;
+    font-size: 16px;
+    text-align:end;
+    padding: 15%;
+    z-index: 1;
+    background-attachment: fixed;
+  }
+
+  .polloperu{
+    color:olive;
+    font-size: 24px;  
+    padding:5%;
+   
+  }
+
+  .linea-decorativa {
+    border-bottom: 5px dashed olive;
+    width:700px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+  }
+
+
+   
+
   
+  
+
 
 
 
