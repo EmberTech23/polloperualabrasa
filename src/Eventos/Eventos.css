@@ -10,12 +10,13 @@
   .texto{
     width: 60%;
     height: 40%;  
-    
+    margin-left: 6rem;
   }
 
   .texto2{
     width: 50%;
-    height: 1%; 
+    height: 1%;
+    font-weight: 700;
   }
 
   .separador {

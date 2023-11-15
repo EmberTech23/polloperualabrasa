@@ -5,9 +5,13 @@ import RappiLogo from '../assets/img/rappi.png';
 const Reservas = () => {
     return (
         <>
-            <div>
-                <h2>Sección de Reservas</h2>
+            
+            <div className='fotoReservas with-text col-3'>
+                <div className='titulo texto fs-2 text-center pt-5'>
+                    <h2>Sección de Reservas</h2>
+                </div>
             </div>
+            
 
             <footer>
                 <div className="container-fluid footer">

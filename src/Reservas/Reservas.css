@@ -1,0 +1,15 @@
+.fotoReservas {
+    background-image: url(../assets/img/fotoReservas.jpeg);
+    height: 79vh;
+    position: relative;
+    background-repeat: no-repeat;
+  
+  }
+  .titulo{
+    width: 60%;
+    height: 40%;  
+    margin-left: 6rem;
+    color: white;
+    position: absolute;
+    ;
+  }
