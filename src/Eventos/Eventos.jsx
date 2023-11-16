@@ -15,7 +15,7 @@ const Eventos = () => {
 
                         <div className="separador"> </div>
                         <br /><br />
-                        <div className="programaevento text-center">PROGRAMA EL EVENTO ACORDE A TUS NECESIDADES</div>
+                        <div className="programaevento text-center fw-bold">PROGRAMA EL EVENTO ACORDE A TUS NECESIDADES</div>
                     </div>
                 </div>
 <br />
@@ -32,17 +32,17 @@ const Eventos = () => {
                     <div className="input-group mb-3"></div>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Seleccione la naturaleza de evento...</option>
-                        <option value="1">Evento familiar</option>
-                        <option value="2">Evento empresarial</option>
+                        <option value="1">Evento Familiar</option>
+                        <option value="2">Evento Empresarial</option>
                         <option value="3">Evento Social</option>
                     </select>
                     <br />
 
                     <div className="input-group mb-3"></div>
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Tipo de evento...</option>
+                        <option selected>Tipo de Evento...</option>
                         <option value="1">Almuerzo</option>
-                        <option value="2">Media tarde</option>
+                        <option value="2">Media Tarde</option>
                         <option value="3">Cena</option>
                     </select>
                     <br />

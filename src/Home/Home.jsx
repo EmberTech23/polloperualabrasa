@@ -13,7 +13,7 @@ export function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="primerfondo with-text col-12 ">
-              <p className=" animate__animated animate__slideInDown">JUNTOS <br />
+              <p className=" animate__animated animate__slideInDown text-start fw-bold">JUNTOS <br />
                 SOMOS <br />
                 PERUANIDAD</p>
             </div>
@@ -82,14 +82,14 @@ export function Home() {
         </div>
 
       <div className="col-12">
-        <h1 className="titulopostres text-center bg">¡Explora nuestros irresistibles postres y deja que el sabor hable por sí mismo!"</h1>
+        <h1 className="titulopostres text-center bg">"¡Explora nuestros irresistibles postres y deja que el sabor hable por sí mismo!"</h1>
 
       </div>
 
       <div className="row md-3">
       <div className="col-md-3 text-center">
           <div className="card p-3 shadow">
-            <h3 className="tarjetas">Suspiro limeño</h3>
+            <h3 className="tarjetas">Suspiro Limeño</h3>
             <img src="../../src/assets/img/postresuno.jpg" alt="" />
             <hr />
             <h5 className='fw-bold text-success'>$10.000 COP</h5>
@@ -101,7 +101,7 @@ export function Home() {
 
         <div className="col-md-3 text-center">
           <div className="card p-3 shadow">
-            <h3 className="tarjetas">Queso helado</h3>
+            <h3 className="tarjetas">Queso Helado</h3>
             <img src="../../src/assets/img/postresdos.jpg" alt="" />
             <hr />
             <h5 className='fw-bold text-success'>$15.000 COP</h5>
@@ -113,7 +113,7 @@ export function Home() {
 
         <div className="col-md-3 text-center">
           <div className="card p-3 shadow">
-            <h3 className="tarjetas">Frutas de temporada</h3>
+            <h3 className="tarjetas">Frutas De Temporada</h3>
             <img src="../../src/assets/img/postrestres.jpg" alt="" />
             <hr />
             <h5 className='fw-bold text-success'>$18.000 COP</h5>
@@ -125,7 +125,7 @@ export function Home() {
 
         <div className="col-md-3 text-center">
           <div className="card p-3 shadow">
-            <h3 className="tarjetas">Tres leches</h3>
+            <h3 className="tarjetas">Tres Leches</h3>
             <img src="../../src/assets/img/postrescuatro.jpg" alt="" />
             <hr />
             <h5 className='fw-bold text-success'>$20.000 COP</h5>

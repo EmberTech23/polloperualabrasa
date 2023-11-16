@@ -223,12 +223,6 @@
   opacity: 80%;
 }
 
-.separadorimagenes {
-  border-bottom: 0.5px solid white; 
-  margin-top: 1px; 
-  
-}
-
 .diezanos {
   background-image: url(../../src/assets/img/10anos.jpg);
   background-repeat: no-repeat;

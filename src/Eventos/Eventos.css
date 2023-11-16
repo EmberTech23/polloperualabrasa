@@ -22,7 +22,6 @@
   .separador {
     border-bottom: 10px solid olive; 
     margin-top: 5px; 
-    
   }
 
   .programaevento {
@@ -32,7 +31,6 @@
   }
 
   .formulario{
-   
     max-width: 500px; 
     width: 100%;
     padding: 20px;
@@ -40,7 +38,9 @@
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
-    margin-top: 5vh; /* Esto ajustará verticalmente el formulario */
+    margin-top: 5vh; 
+    padding-bottom: 40px;
+
   }
   
 
