@@ -61,7 +61,7 @@ const Eventos = () => {
                     </div>
                     <br />
                     <div class="input-group">
-                        <span class="input-group-text">Solicitudes adicionales </span>
+                        <span class="input-group-text">Datos adicionales  </span>
                         <textarea class="form-control" aria-label="With textarea"></textarea>
                     </div>
                     <br />
@@ -109,6 +109,8 @@ const Eventos = () => {
                             </div>
                         </div>
                     </div>
+
+
 
                 </div>
             </footer>

@@ -130,7 +130,7 @@
 
 
 .nosencuentras {
-  background-color: black
+  background-color: black;
 }
 
 .separador {
@@ -168,8 +168,8 @@
 
 .postresuno {
   background-image: url(../assets/img/postresuno.jpg);
-  padding: 10% 25%; 
   position: relative;
+  padding: 10% 25%; 
   background-size: cover;
 }
 
@@ -253,28 +253,64 @@
   .textocreacion{
     color:olive;
     font-size: 16px;
-    text-align:end;
-    padding: 15%;
-    z-index: 1;
-    background-attachment: fixed;
+    text-align:center;
+    padding: 5%;
+    background-color: white;
+    
   }
 
   .polloperu{
-    color:olive;
+   
+    font-size: 50px;  
+    color: olive;
+    background-color: white;
+   
+  }
+
+  .titulopostres{
+   
     font-size: 24px;  
     padding:5%;
-   
+    background-color: olive; 
+    color: black;
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   .linea-decorativa {
-    border-bottom: 5px dashed olive;
-    width:700px;
-    margin: 0 auto; 
+    border-bottom: 2px dashed olive;
+    width:500px;
+    margin: auto; 
     margin-bottom: 20px;
+   
+  }
+  
+  .bannerpostres {
+    padding: 2% 35% 45% 2%;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+  }
+  
+  .bannerpostres::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
   }
 
+  .tarjetas{
+    color:olive;
+  }
 
-   
+ 
 
   
   

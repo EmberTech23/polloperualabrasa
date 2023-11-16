@@ -75,7 +75,7 @@ const Contactanos = () => {
                                             placeholder="Mensaje"
                                         ></textarea>
                                     </div>
-                                    <button type="submit" className="btn btn-dark w-100">
+                                    <button className="btn-enviar" type="button">
                                         Enviar
                                     </button>
                                 </form>
