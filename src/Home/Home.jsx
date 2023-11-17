@@ -13,7 +13,7 @@ export function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="primerfondo with-text col-12 ">
-              <p className=" animate__animated animate__slideInDown text-start fw-bold">JUNTOS <br />
+              <p className="aviso-luminoso animate__animated animate__slideInDown text-start fw-bold">JUNTOS <br />
                 SOMOS <br />
                 PERUANIDAD</p>
             </div>

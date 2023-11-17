@@ -9,7 +9,7 @@ const Eventos = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="fondoeventos with-text col-12">
-                            <p className="texto fs-2 text-uppercase animate__animated animate__zoomInLeft"> Estamos emocionados de compartir contigo el delicioso secreto de la brasa peruana.</p> <br />
+                            <p className="texto fs-2 text-uppercase animate__animated animate__zoomInLeft"> Estamos emocionados de compartir contigo el delicioso secreto de la brasa peruana.</p> <br /><br /><br />
                             <p className="texto2 fs-1 text-uppercase animate__animated animate__zoomInLeft"> ¡Esperamos que disfrutes cada momento con nosotros!</p>
                         </div>
 
