@@ -4,6 +4,21 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-  
   }
+
+.hola{
+  padding-top: 10%;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0); /* Fondo inicialmente transparente */
+  opacity: 0;
+  transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img-overlay {
+  background: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
+  opacity: 1;
+}
+
   

@@ -42,7 +42,7 @@ export function Menu() {
               </li>
               <li className="nav-item mx-5">
                 <Link to="/contactanos" className="nav-link active">
-                  CONTACTANOS
+                  CONTÁCTANOS
                 </Link>
               </li>
             </ul>

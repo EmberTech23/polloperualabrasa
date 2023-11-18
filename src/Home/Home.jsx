@@ -67,10 +67,10 @@ export function Home() {
               <div className="row">
                 <div className="col-12">
                   <br /><br /><br /><br /><br />
-                  <h6 className="polloperu text-center">POLLO PERU A LA BRASA</h6>
+                  <h6 className="polloperu text-center fw-bold">POLLO PERÚ A LA BRASA</h6>
                   <p className="textocreacion">
-                    Hace años, en Lima, Perú, nació "Pollo Peru a la Brasa", un sueño que fusiona tradición e innovación culinaria. Con el pollo como protagonista, marinado en secretas especias y asado a la perfección en la brasa, el restaurante se convirtió en un ícono de la cocina peruana auténtica.
-                    Desde su modesto inicio, la fama del lugar creció, manteniendo la esencia y autenticidad en cada nuevo local. "Pollo Peru a la Brasa" no solo ofrece deliciosas comidas, sino que también es un encuentro con la rica cultura peruana.
+                    Hace años, en Lima, Perú, nació "Pollo Perú a la Brasa", un sueño que fusiona tradición e innovación culinaria. Con el pollo como protagonista, marinado en secretas especias y asado a la perfección en la brasa, el restaurante se convirtió en un ícono de la cocina peruana auténtica.
+                    Desde su modesto inicio, la fama del lugar creció, manteniendo la esencia y autenticidad en cada nuevo local. "Pollo Perú a la Brasa" no solo ofrece deliciosas comidas, sino que también es un encuentro con la rica cultura peruana.
                     La brasa sigue ardiendo, recordándonos que la pasión por la autenticidad y la calidad es la clave de esta experiencia gastronómica. Hoy, el restaurante sigue siendo un símbolo de la tradición culinaria peruana, donde la magia de la brasa se encuentra con la hospitalidad para crear momentos inolvidables alrededor de la mesa.</p>
                     <br /><br /><br /><br />
                     </div>
