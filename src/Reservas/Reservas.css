@@ -6,18 +6,33 @@
     background-size: cover;
   }
 
-.hola{
+.hola {
   padding-top: 10%;
 }
 
+.pb {
+padding-bottom: 10%;
+}
+
+.custom-textarea {
+  background-color: red; /* Cambia este valor al color gris claro deseado */
+}
+
+
+.form-label {
+  
+}
+
+
 .card-img-overlay {
-  background: rgba(0, 0, 0, 0); /* Fondo inicialmente transparente */
+  background: rgba(0, 0, 0, 0); 
   opacity: 0;
   transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  
 }
 
 .card:hover .card-img-overlay {
-  background: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
+  background: rgba(0, 0, 0, 0.8); 
   opacity: 1;
 }
 

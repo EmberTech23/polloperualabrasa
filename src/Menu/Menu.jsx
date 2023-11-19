@@ -1,8 +1,15 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import './Menu.css';
+import menuPdf from '../assets/menu.pdf';
 
 export function Menu() {
+  const handlePdfLink = (e) => {
+    e.preventDefault();
+
+    window.open(menuPdf, '_blank');
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg menu navbar-dark menu fixed-top">
@@ -26,9 +33,9 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item mx-5">
-                <Link to="/carta" className="nav-link active">
+                <a href="#" onClick={handlePdfLink} className="nav-link active">
                   CARTA
-                </Link>
+                </a>
               </li>
               <li className="nav-item mx-5">
                 <Link to="/eventos" className="nav-link active">

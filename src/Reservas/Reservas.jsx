@@ -1,7 +1,10 @@
 import './Reservas.css'
 import React from "react";
 import RappiLogo from '../assets/img/rappi.png';
-import arrozchaufa from '../assets/img/arrozchaufa.jpg'
+import Mesa2 from '../assets/img/Mesa2.jpg'
+import Mesa4 from '../assets/img/Mesa4.jpg'
+import Mesa6 from '../assets/img/Mesa6.jpg'
+import Mesa8 from '../assets/img/Mesa8.jpg'
 
 
 const Reservas = () => {
@@ -16,113 +19,115 @@ const Reservas = () => {
                 </div>
             </div>
 
-            <body>
-                <div className="container">
-                    <div className="row hola">
-                        <div className="col-6">
-                            <div className="card text-center text-bg-dark">
-                                <img src={arrozchaufa} className="card-img" alt="..." />
-                                <div className="card-img-overlay">
-                                    <div className="card-text-container">
-                                        <h5 className="card-title">Mesa Estándar</h5>
-                                        <hr className="linea-separadora" />
-                                        <p className="card-text fw-bold">
-                                            Ideal para encuentros formales y cenas en pareja.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Incluye : Acceso a menú estándar y servicio de atención personalizada.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Capacidad : 4 Personas
-                                        </p>
-                                        <button className="btn-reservar fw-bold">Reservar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6">
-                        <div className="card text-center text-bg-dark">
-                                <img src={arrozchaufa} className="card-img" alt="..." />
-                                <div className="card-img-overlay">
-                                    <div className="card-text-container">
-                                        <h5 className="card-title">Mesa VIP</h5>
-                                        <hr className="linea-separadora" />
-                                        <p className="card-text fw-bold">
-                                            Ideal para celebraciones y eventos especiales.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Incluye : Acceso a menú VIP, servicio exclusivo y postre de cortesía.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Capacidad : 6 Personas
-                                        </p>
-                                        <button className="btn-reservar fw-bold">Reservar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row hola">
-                        <div className="col-6">
-                            <div className="card text-center text-bg-dark">
-                                <img src={arrozchaufa} className="card-img" alt="..." />
-                                <div className="card-img-overlay">
-                                    <div className="card-text-container">
-                                        <h5 className="card-title">Rincón Acogedor</h5>
-                                        <hr className="linea-separadora" />
-                                        <p className="card-text fw-bold">
-                                            Ideal para reuniones íntimas y conversaciones relajadas.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Incluye : Café o té de cortesía y ambiente tranquilo.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Capacidad : 2 Personas
-                                        </p>
-                                        <button className="btn-reservar fw-bold">Reservar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6">
-                        <div className="card text-center text-bg-dark">
-                                <img src={arrozchaufa} className="card-img" alt="..." />
-                                <div className="card-img-overlay">
-                                    <div className="card-text-container">
-                                        <h5 className="card-title">Mesa al Aire Libre</h5>
-                                        <hr className="linea-separadora" />
-                                        <p className="card-text fw-bold">
-                                            Ideal para disfrutar de una comida al aire libre con amigos.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Incluye : Acceso a menú al aire libre y servicio de sombrilla si es necesario.
-                                        </p>
-                                        <p className="card-text fw-bold">
-                                            Capacidad : 8 Personas
-                                        </p>
-                                        <button className="btn-reservar fw-bold">Reservar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+            <div className="container">
+                <div className="row hola">
+                    <div className="col-6">
+                        <div className="card text-center text-bg-dark">
+                            <img src={Mesa4} className="card-img" alt="..." />
+                            <div className="card-img-overlay">
+                                <div className="card-text-container">
+                                    <h5 className="card-title">Mesa Estándar</h5>
+                                    <hr className="linea-separadora" />
+                                    <p className="card-text fw-bold">
+                                        Ideal para encuentros formales y cenas en pareja.
+                                    </p><br />
+                                    <p className="card-text fw-bold">
+                                        Incluye : Acceso a menú estándar y servicio de atención personalizada.
+                                    </p>
+                                    <p className="card-text fw-bold">
+                                        Capacidad : 4 Personas
+                                    </p><br />
+                                    <button className="btn-reservar fw-bold">Reservar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-6">
+                        <div className="card text-center text-bg-dark mx-auto">
+                            <img src={Mesa6} className="card-img" alt="..." />
+                            <div className="card-img-overlay">
+                                <div className="card-text-container ">
+                                    <h5 className="card-title">Mesa VIP</h5>
+                                    <hr className="linea-separadora" />
+                                    <p className="card-text fw-bold">
+                                        Ideal para celebraciones y eventos especiales.
+                                    </p><br />
+                                    <p className="card-text fw-bold">
+                                        Incluye : Acceso a menú VIP, servicio exclusivo y postre de cortesía.
+                                    </p>
+                                    <p className="card-text fw-bold">
+                                        Capacidad : 6 Personas
+                                    </p><br />
+                                    <button className="btn-reservar fw-bold">Reservar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row hola pb">
+                    <div className="col-6">
+                        <div className="card text-center text-bg-dark mx-auto">
+                            <img src={Mesa2} className="card-img" alt="..." />
+                            <div className="card-img-overlay">
+                                <div className="card-text-container">
+                                    <h5 className="card-title">Rincón Acogedor</h5>
+                                    <hr className="linea-separadora" />
+                                    <p className="card-text fw-bold">
+                                        Ideal para reuniones íntimas y conversaciones relajadas.
+                                    </p><br />
+                                    <p className="card-text fw-bold">
+                                        Incluye : Café o té de cortesía y ambiente tranquilo.
+                                    </p>
+                                    <p className="card-text fw-bold">
+                                        Capacidad : 2 Personas
+                                    </p><br />
+                                    <button className="btn-reservar fw-bold">Reservar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-6">
+                        <div className="card text-center text-bg-dark">
+                            <img src={Mesa8} className="card-img" alt="..." />
+                            <div className="card-img-overlay">
+                                <div className="card-text-container">
+                                    <h5 className="card-title">Mesa al Aire Libre</h5>
+                                    <hr className="linea-separadora" />
+                                    <p className="card-text fw-bold">
+                                        Ideal para disfrutar de una comida al aire libre con amigos.
+                                    </p><br />
+                                    <p className="card-text fw-bold">
+                                        Incluye : Acceso a menú al aire libre y servicio de sombrilla si es necesario.
+                                    </p>
+                                    <p className="card-text fw-bold">
+                                        Capacidad : 8 Personas
+                                    </p><br />
+                                    <button className="btn-reservar fw-bold">Reservar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label fw-bold fs-5 text-muted">
+                                Recuerda que tu reserva nos permite ofrecerte nuestro servicio exclusivo. ¡Estamos aquí para atenderte y recibir tus solicitudes de reserva con gusto!
+                            </label>
+                            <textarea
+                                className="form-control custom-textarea"
+                                id="exampleFormControlTextarea1"
+                                rows={3}
+                                defaultValue={""}
+                                placeholder="Déjanos tus comentarios..."
+                                style={{ borderRadius: '0', backgroundColor: '#ccc' }} 
+                            />
+                        </div>
+                    </div>
                 </div>
 
-
-            </body>
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
 
             <footer>
                 <div className="container-fluid footer">
