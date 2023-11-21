@@ -1,6 +1,6 @@
 .fotoReservas {
     background-image: url(../assets/img/fotoReservas.jpeg);
-    padding: 15% 25% 35% 2%;
+    padding: 5% 25% 35% 5%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,4 +36,9 @@ padding-bottom: 10%;
   opacity: 1;
 }
 
-  
+.separador {
+  color: olive;
+  width: 100%;
+  height: 100%;
+ 
+}

@@ -16,10 +16,9 @@ const Reservas = () => {
                         <p className="texto fs-2 text-uppercase animate__animated animate__zoomInLeft">Explora Opciones para Disfrutar de Momentos Especiales. </p> <br /><br /><br />
                         <p className="texto2 fs-1 text-uppercase animate__animated animate__zoomInLeft"> ¡Descubre Nuestro Espacio Único!</p>
                     </div>
+                    <div className='separador'></div>
                 </div>
             </div>
-
-
             <div className="container">
                 <div className="row hola">
                     <div className="col-6">
